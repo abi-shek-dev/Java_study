@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class combinations {
 
     public static int factorial(int num) {
@@ -9,10 +11,12 @@ public class combinations {
 
     public static void main(String[] args) {
 
-        int n = 3;
-        int m = 4;
-        int p = 2;
-        int e = 1;
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int p = sc.nextInt();
+        int e = sc.nextInt();
 
         int ncp = factorial(n) / (factorial(p) * factorial(n - p));
         int mce = factorial(m) / (factorial(e) * factorial(m - e));
