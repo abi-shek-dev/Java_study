@@ -23,6 +23,8 @@ public class combinations {
 
         System.out.println(ncp * mce);
 
+        sc.close();
+
     }
 
 }

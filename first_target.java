@@ -1,8 +1,17 @@
+import java.util.Scanner;
+
 public class first_target {
 
     public static void main(String[] args) {
 
-        int[] arr = { 1, 5, 6, 8, 9 };
+        Scanner sc = new Scanner(System.in);
+
+        int[] arr = new int[5];
+
+        for (int i = 0;  i < arr.length ; i++){
+            arr[i] = sc.nextInt();
+        }
+        
         int target = 6;
 
         for (int i = 0; i < arr.length; i++) {
@@ -11,6 +20,8 @@ public class first_target {
                 break;
             }
         }
+
+        sc.close();
 
     }
 
