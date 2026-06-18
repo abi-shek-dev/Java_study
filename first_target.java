@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class first_target {
 
     public static void main(String[] args) {
