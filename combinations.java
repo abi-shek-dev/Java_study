@@ -9,10 +9,10 @@ public class combinations {
 
     public static void main(String[] args) {
 
-        int n = 5;
-        int m = 3;
-        int p = 3;
-        int e = 2;
+        int n = 3;
+        int m = 4;
+        int p = 2;
+        int e = 1;
 
         int ncp = factorial(n) / (factorial(p) * factorial(n - p));
         int mce = factorial(m) / (factorial(e) * factorial(m - e));
